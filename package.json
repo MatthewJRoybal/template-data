@@ -1,0 +1,29 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "git add . && git commit -m \"Updating\" && git push",
+    "setup": "node ./ --task=setup",
+    "seed": "node ./ --task=seed",
+    "nuke": "node ./ --task=nuke"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewJRoybal/template-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewJRoybal/template-data/issues"
+  },
+  "homepage": "https://github.com/MatthewJRoybal/template-data#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "faker": "^4.1.0",
+    "minimist": "^1.2.0",
+    "mongodb": "^2.2.29"
+  }
+}
